@@ -65,7 +65,7 @@ const Home = () => (
         text-decoration: none;
         color: #434343;
         border: none;
-        border-radius: 20px;
+        border-radius: 25px;
         background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
         transition: all 0.5s ease-in-out;
       }
