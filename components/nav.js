@@ -11,7 +11,7 @@ const links = [
 
 const Nav = () => (
   <nav>
-    <ul>
+    {/* <ul>
       <li>
         <Link href="/">
           <a>Home</a>
@@ -22,6 +22,23 @@ const Nav = () => (
           <a href={href}>{label}</a>
         </li>
       ))}
+    </ul> */}
+
+    <ul>
+      <li>
+        <Link href="/">
+          <div class="logo">S</div>
+        </Link>
+      </li>
+      <li>
+        <input type="text" placeholder="Search" />
+      </li>
+      <li>
+        <div class="notify">Notify</div>
+      </li>
+      <li>
+        <div class="prof-setting">Profile</div>
+      </li>
     </ul>
 
     <style jsx>{`
